@@ -1,0 +1,21 @@
+{
+    "john_doe": [
+        {
+            "date": "2025-01-01",
+            "event": "Login",
+            "status": "Success"
+        },
+        {
+            "date": "2025-01-03",
+            "event": "DownloadFile",
+            "status": "Success"
+        }
+    ],
+    "jane_smith": [
+        {
+            "date": "2025-01-02",
+            "event": "UploadFile",
+            "status": "Failed"
+        }
+    ]
+}

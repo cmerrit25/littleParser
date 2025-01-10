@@ -1,0 +1,4 @@
+Date,Event,User,Status
+2025-01-01,Login,john_doe,Success
+2025-01-02,UploadFile,jane_smith,Failed
+2025-01-03,DownloadFile,john_doe,Success
