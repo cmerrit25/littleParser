@@ -1,0 +1,21 @@
+Add functionality to the parser mirroring the 271 parser
+
+
+Add Hierarchical data parsing
+    Extend CSV format to include nested data(multiple events for a single user)
+    Implement logic to group events by user
+
+Dynamic Mapping to Dataclasses:
+    dont hardcode fields, use a factory function like dataclass_factory to map data dynamically
+
+Lazy Processing:
+    use a generator to process large files line by line for better efficiency
+
+Add Validation Rules
+    Validate specific fields(check if data is correctlly formatted)
+
+Suppot Multiple Formats:
+    Allow parsing of other file Formats
+    
+Enhanced Output
+    Support JSON output or nested structures, enabling more complex reporting
